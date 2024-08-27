@@ -225,7 +225,7 @@ const contactsss = JSON.parse(fs.readFileSync("./pushkont/contacts.json"))
 const svcontact = JSON.parse(fs.readFileSync("./pushkont/svcontact.json"))
 const isContacts = contactsss.includes(m.sender)
 	    const moment = require("moment-timezone")
-const time2 = moment().tz("Asia/Jakarta").format("HH:mm:ss")
+const time2 = moment().tz("Africa/Lagos").format("HH:mm:ss")
 if(time2 < "20:00:00"){
 var ucapanWaktu = "𝐒𝐞𝐥𝐚𝐦𝐚𝐭 𝐌𝐚𝐥𝐚𝐦"
 }
@@ -244,10 +244,10 @@ var ucapanWaktu = "𝐒𝐞𝐥𝐚𝐦𝐚𝐭 𝐏𝐚𝐠𝐢"
 if(time2 < "05:00:00"){
 var ucapanWaktu = "𝐒𝐞𝐥𝐚𝐦𝐚𝐭 𝐌𝐚𝐥𝐚𝐦"
 }
-const wib = moment(Date.now()).tz("Africa/Nairobi").locale("id").format("HH:mm:ss z")
-const wita = moment(Date.now()).tz("Africa/Nairobi").locale("id").format("HH:mm:ss z")
-const wit = moment(Date.now()).tz("Africa/Nairobi").locale("id").format("HH:mm:ss z")
-const salam2 = moment(Date.now()).tz("Africa/Nairobi").locale("id").format("a")
+const wib = moment(Date.now()).tz("Africa/Lagos").locale("id").format("HH:mm:ss z")
+const wita = moment(Date.now()).tz("Africa/Lagos").locale("id").format("HH:mm:ss z")
+const wit = moment(Date.now()).tz("Africa/Lagos").locale("id").format("HH:mm:ss z")
+const salam2 = moment(Date.now()).tz("Africa/Lagos").locale("id").format("a")
 
 //=================================================//}
 const zets = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? {remoteJid :"status@broadcast" }: {})},
